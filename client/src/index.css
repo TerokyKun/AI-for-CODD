@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* File Input */
+.file-input {
+  background-color: #2c2c2c; /* Темный фон */
+  color: #aaa; /* Светло-серый текст */
+  border: 1px dashed #555; /* Пунктирная рамка */
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+}
+
+.file-input:hover {
+  background-color: #333; /* Чуть светлее при наведении */
+  color: #fff; /* Белый текст */
+  border-color: #888; /* Изменение цвета рамки */
+}
+
+/* Button with textured gradient */
+button {
+  background: linear-gradient(145deg, rgba(108, 99, 255, 0.7), rgba(156, 144, 255, 0.5)); /* Фиолетовый градиент с текстурным эффектом */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), inset 0 -3px 5px rgba(255, 255, 255, 0.1); /* Внутренний и внешний тени для текстуры */
+  transition: transform 0.2s ease, background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(145deg, rgba(156, 144, 255, 0.8), rgba(108, 99, 255, 0.6)); /* Светлее при наведении */
+  transform: translateY(-2px); /* Легкое поднятие */
+}
+
+button:disabled {
+  background: rgba(128, 128, 128, 0.6); /* Серый для заблокированной кнопки */
+  cursor: not-allowed;
+  box-shadow: none; /* Убираем тень */
+}
+
+/* Optional: Center content better */
+.upload-form {
+  display: flex;
+  flex-direction: column; /* Переводим элементы в колонку */
+  align-items: center;
+  gap: 15px; /* Отступ между input и button */
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
