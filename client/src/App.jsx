@@ -71,7 +71,7 @@ function App() {
             setNotification(null);
             return 0;
           }
-          return prev - 2;
+          return prev - 5;
         });
       }, 100);
     }, 100);
