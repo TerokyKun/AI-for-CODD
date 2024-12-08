@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Hls from "hls.js";
 import "./App.css";
+import AnimatedCanvas from "./assets/AnimatedCanvas ";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true); // Управление заставкой
@@ -89,8 +90,12 @@ function App() {
     }
   }, [hlsPath]);
 
+
+
   return (
     <div className="App">
+      <AnimatedCanvas/>
+
        <h1 className="fixed-title">Программа для анализа дорожного трафика</h1>
       {showSplash ? (
         <div className="splash">
