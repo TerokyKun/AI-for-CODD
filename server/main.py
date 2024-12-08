@@ -14,7 +14,7 @@ CONFIG = {
     "max_objects": 8,
     "parked_threshold": 4,
     "tolerance": 1.5,
-    "prediction_strength": 0.3,
+    "prediction_strength": 0.7,
     "path_thickness": 1,
     "center_dot_radius": 2,
     "object_lifetime": 2

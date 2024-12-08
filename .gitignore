@@ -1,4 +1,5 @@
-cars*.mp4
 *.pt
 *.pyc
 his/
+processed_cars*.mp4
+cars*.mp4

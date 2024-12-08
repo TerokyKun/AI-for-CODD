@@ -155,19 +155,15 @@ function App() {
               </button>
             </form>
 
-            {analysisResults && (
-              <div className="analysis-container">
-                <h2>Результаты анализа:</h2>
-                <pre>{JSON.stringify(analysisResults, null, 2)}</pre>
-              </div>
-            )}
+     
 
 {hlsPath && !isUploading && (
   <div className="video-container">
     {isUploading ? (
       <div className="loader"></div> /* Показ загрузочного индикатора */
     ) : hlsPath ? (
-      <video id="video" controls autoPlay></video> /* Показ видео */
+      <video id="video" controls autoPlay>  </video> /* Показ видео */
+      
     ) : (
       <p style={{ color: "#fff" }}>Видео еще не загружено</p> /* Сообщение, если видео отсутствует */
     )}
