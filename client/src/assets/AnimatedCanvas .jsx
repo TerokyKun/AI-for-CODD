@@ -23,7 +23,7 @@ const AnimatedCanvas = () => {
       for (let y = 0; y < height; y += height / 20) {
         let px = x + Math.random() * (width / 20);
         let py = y + Math.random() * (height / 20);
-        pointsArr.push({ x: px, originX: px, y: py, originY: py });
+        pointsArr.push({ x: px, originX: px, y: py, originY: py, angle: Math.random() * Math.PI * 2 });
       }
     }
 
@@ -109,6 +109,9 @@ const AnimatedCanvas = () => {
             point.circle.active = 0;
           }
 
+          // Apply smooth shaking effect
+          shakePoint(point);
+
           drawLines(ctx, point);
           point.circle.draw(ctx);
         });
@@ -132,6 +135,18 @@ const AnimatedCanvas = () => {
 
   const getDistance = (p1, p2) => {
     return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
+  };
+
+  const shakePoint = (point) => {
+    const shakeRadius = 0.5; // Very small radius for subtle shake
+    const shakeSpeed = 0.02; // Slow down the shaking effect
+
+    // Calculate shake based on sine and cosine for smooth, circular motion
+    point.x = point.originX + Math.sin(point.angle) * shakeRadius;
+    point.y = point.originY + Math.cos(point.angle) * shakeRadius;
+
+    // Increment the angle slowly for more subtle and smooth animation
+    point.angle += shakeSpeed;
   };
 
   class Circle {
