@@ -1,0 +1,37 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+  <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+  <g stroke="null" id="svg_133">
+   <g stroke="null" transform="matrix(1.83646082878715,0,0,1.6277870554004392,-3304.6939233046123,-1915.931979107439) " id="svg_132">
+    <title stroke="null" transform="translate(19.73905372619629,11.134748458862305) translate(-25.281694412231445,-25.799821853637695) translate(-178.06634521484375,-165.8845672607422) translate(1848.2515869140625,0) translate(0,1274.85546875) ">Layer 1</title>
+    <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+    <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+    <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+    <g stroke="null" id="svg_121">
+     <g stroke="null" id="svg_130" transform="matrix(0.7183600921672876,0,0,0.7183600921672876,-1135.78859800176,-747.2515824657457) ">
+      <title stroke="null" transform="translate(27.477937698364258,15.500232696533203) translate(-35.19362258911133,-35.914886474609375) translate(-247.8789520263672,-230.9211883544922) translate(2572.876220703125,0) translate(0,1774.6746826171875) ">background</title>
+     </g>
+     <g stroke="null" id="svg_122" transform="matrix(0.7183600921672876,0,0,0.7183600921672876,-1135.78859800176,-747.2515824657457) ">
+      <title stroke="null" transform="translate(27.477937698364258,15.500232696533203) translate(-35.19362258911133,-35.914886474609375) translate(-247.8789520263672,-230.9211883544922) translate(2572.876220703125,0) translate(0,1774.6746826171875) ">Layer 1</title>
+      <ellipse stroke="#000" ry="94.5" rx="94.5" id="svg_129" cy="2839.245655" cx="4287.959563" stroke-width="0" fill="#fff"/>
+      <ellipse stroke="#000" ry="143.5" rx="142.5" id="svg_128" cy="2846.245655" cx="4310.959563" stroke-opacity="null" stroke-width="7" fill="#853bed"/>
+      <g stroke="null" transform="rotate(-49.27083206176758 4309.459472656249,2846.792724609375) " id="svg_123">
+       <g stroke="null" id="svg_124" fill="#000000" transform="matrix(0.1832929809274944,0,0,-0.1700464039272648,-1061.9553260469702,-275.9098318128533) ">
+        <path stroke="null" id="svg_127" d="m29179.706056,-17582.884347c-160,-29 -292,-94 -406,-199c-62,-57 -174,-198 -165,-208c2,-2 53,8 113,23c184,43 325,56 599,57c263,0 333,-7 566,-57c60,-13 109,-21 109,-17c0,14 -82,126 -123,169c-96,100 -254,189 -387,217c-93,20 -238,27 -306,15z"/>
+        <path stroke="null" id="svg_126" d="m29015.706056,-18003.884347c-41,-5 -104,-15 -140,-23c-36,-8 -87,-17 -115,-21c-27,-4 -85,-18 -127,-31c-74,-23 -78,-26 -88,-62c-34,-122 -38,-292 -10,-408c14,-57 26,-66 140,-106c179,-62 365,-89 625,-91c181,-1 214,1 345,27c165,32 292,67 365,100c48,22 52,26 63,77c29,124 25,288 -10,395c-11,33 -21,41 -68,60c-63,25 -213,56 -385,78c-130,18 -462,20 -595,5z"/>
+        <path stroke="null" id="svg_125" d="m29993.706056,-18717.884347c-9,-9 -320,-85 -391,-96c-275,-40 -624,-21 -847,45c-63,18 -123,37 -132,41c-28,11 -21,-7 31,-81c60,-86 167,-187 252,-237c124,-73 303,-114 447,-103c213,18 400,107 533,255c55,60 126,168 117,176c-3,3 -7,3 -10,0z"/>
+       </g>
+      </g>
+     </g>
+    </g>
+    <text stroke="#000" fill="#2badff" stroke-width="0" stroke-opacity="null" x="655.992366" y="446.331604" id="svg_120" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(6.427231775530233,0,0,6.62261866100323,-2332.729718150495,-1608.803321462298) ">AI</text>
+   </g>
+  </g>
+ </g>
+</svg>
